@@ -4,6 +4,8 @@
 PB API is a library that simulates a point blank client to
 the game server (Only the connection).It can authenticates, create rooms, send messages,
 start battles and many more.
+This library was written based in the **game version
+1.15.37 and UDP version 1012.12**.
 
 ### Disclaimer
 This analysis of the PointBlank protocol is for educational
@@ -12,6 +14,7 @@ that tries to reproduce what is shown here.
 If you are not aware of the risks involving exploiting
 some informations described in commercial servers
 **we discourage you to use it.**
+
 
 ### Installation
 To install you can use the node package manager (npm) with the
