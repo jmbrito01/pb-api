@@ -1,0 +1,97 @@
+[
+  { "id": -1, "name": "UNKNOWN" },
+  { "id": 1, "name": "TD_PORTAKABA" },
+  { "id": 2, "name": "TD_REDROCK" },
+  { "id": 3, "name": "TD_LIBRARY" },
+  { "id": 4, "name": "TD_MSTATION" },
+  { "id": 5, "name": "TD_MIDNIGHTZONE" },
+  { "id": 6, "name": "TD_UPTOWN" },
+  { "id": 7, "name": "TD_BURNINGHALL" },
+  { "id": 8, "name": "TD_DSQUAD" },
+  { "id": 9, "name": "TD_CRACKDOWN" },
+  { "id": 10, "name": "TD_SAINTMANSION" } ,
+  { "id": 11, "name": "TD_EASTERNROAD" },
+  { "id": 12, "name": "TD_DOWNTOWN" },
+  { "id": 13, "name": "TD_LUXVILLE" },
+  { "id": 14, "name": "TD_BLOWCITY" },
+  { "id": 15, "name": "TD_STORMTUBE" },
+
+  { "id": 17, "name": "TD_BREAKDOWN" },
+  { "id": 18, "name": "TD_TRAININGCAMP" },
+  { "id": 19, "name": "TD_SENTRYBASE" },
+  { "id": 20, "name": "TD_DESERTCAMP" },
+  { "id": 21, "name": "TD_KICKPOINT" },
+  { "id": 22, "name": "TD_FACEROCK" },
+  { "id": 23, "name": "TD_SUPPLYBASE" },
+  { "id": 24, "name": "TD_SANDSTORM" },
+  { "id": 25, "name": "BB_DOWNTOWN" },
+  { "id": 26, "name": "BB_LUXVILLE" },
+  { "id": 27, "name": "BB_OUTPOST" },
+  { "id": 28, "name": "BB_BLOWCITY" },
+  { "id": 29, "name": "BB_STORMTUBE" },
+  { "id": 30, "name": "BB_SENTRYBASE" },
+  { "id": 31, "name": "BB_HOSPITAL" },
+  { "id": 32, "name": "BB_DOWNTOWN2" },
+  { "id": 33, "name": "BB_SHOPPINGCENTER" },
+  { "id": 34, "name": "BB_SANDSTORM" },
+  { "id": 35, "name": "DS_BREAKDOWN" },
+
+
+  { "id": 38, "name": "DS_HELISPOT" },
+  { "id": 39, "name": "DF_BLACKPANTHER" },
+  { "id": 40, "name": "ES_BREEDINGNEST" },
+  { "id": 41, "name": "ES_DUPTOWN" },
+  { "id": 42, "name": "ES_DINOBREAKDOWN" },
+
+  { "id": 44, "name": "TUTORIAL" },
+  { "id": 45, "name": "TD_SHOPPINGCENTER" },
+  { "id": 46, "name": "TD_SAFARI" },
+  { "id": 47, "name": "TD_DRAGONVALLEY" },
+  { "id": 48, "name": "TD_MACHUPICHU" },
+  { "id": 49, "name": "BB_CARGOSHIP" },
+  { "id": 50, "name": "TD_TWOTOWERS" },
+  { "id": 51, "name": "CC_CRACKDOWN" },
+  { "id": 52, "name": "CC_SAINTMANSION" },
+  { "id": 53, "name": "CC_DSQUAD" },
+  { "id": 54, "name": "CC_PORTAKABA" },
+  { "id": 55, "name": "CC_MSTATION" },
+  { "id": 56, "name": "CC_TRAININGCAMP" },
+  { "id": 57, "name": "TD_ANGKORRUINS" },
+  { "id": 58, "name": "CC_REDROCK" },
+  { "id": 59, "name": "CC_SAFARI" },
+  { "id": 60, "name": "TD_GHOSTTOWN" },
+  { "id": 61, "name": "TD_GRANDBAZAR" },
+  { "id": 62, "name": "CC_DINOLAB" },
+  { "id": 63, "name": "TD_UNDER23" },
+  { "id": 64, "name": "TD_TAIPECITYMALL" },
+  { "id": 65, "name": "TD_SAFARI2" },
+  { "id": 66, "name": "BB_AIRPORT" },
+  { "id": 67, "name": "CC_SAFARI2" },
+  { "id": 68, "name": "TD_METRO" },
+
+
+
+
+
+
+
+
+  { "id": 77, "name": "TD_RUSH_HOUR" },
+  { "id": 78, "name": "TD_CARGO_PORT" },
+  { "id": 79, "name": "TD_BLACKMAMBA" },
+  { "id": 80, "name": "BB_SAFEHOUSE" },
+  { "id": 81, "name": "TD_HOLIDAY" },
+  { "id": 82, "name": "TD_WESTSTATION" },
+  { "id": 83, "name": "BB_HARDROCK" },
+  { "id": 84, "name": "TD_HOUSEMUSEUM" },
+  { "id": 85, "name": "TD_PUNKINHOLLOW" },
+  { "id": 86, "name": "TD_ROTHENVILLAGE" },
+
+
+
+
+
+
+  { "id": 93, "name": "TD_RAMPARTTOWN" },
+  { "id": 94, "name": "BB_FALLUCITY" }
+  ]

@@ -1,0 +1,22 @@
+[
+    {
+        "id": 0,
+        "text": "Connected successfully!"
+    },
+    {
+        "id": 1,        
+        "text": "Account already connected"
+    },
+    {
+        "id": 6,
+        "text": "Invalid password"
+    },
+    {
+        "id": 11,
+        "text": "Account Banned"
+    },
+    {
+        "id": 12,
+        "text": "Invalid Username"
+    }
+]

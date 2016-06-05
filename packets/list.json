@@ -1,0 +1,417 @@
+[    
+  {
+    "name": "PROTOCOL_MESSAGE_CHAT_WHISPER_REQ",
+    "protocol_id": 290,
+    "source": "client",
+    "class": "MessageChatWhisper.js"
+  }, 
+  {
+    "name": "PROTOCOL_MESSAGE_CHAT_WHISPER_ACK",
+    "source": "server",
+    "protocol_id": 294,
+    "class": "MessageChatWhisper.js"
+  },
+  
+  
+  {
+    "name": "PROTOCOL_BASE_GET_CLAN_PLAYERS_ACK",
+    "protocol_id": 1349,
+    "clean": true
+  },
+
+
+  {
+    "name": "PROTOCOL_BASE_SERVERLIST_ACK",
+    "source": "server",
+    "protocol_id": 2049,
+    "class": "Hello.js"
+  },  
+  {
+    "name": "PROTOCOL_BASE_TIMEOUT",
+    "protocol_id": 2054,
+    "clean": true
+  },  
+  
+  
+  {
+    "name": "PROTOCOL_BASE_LOGIN_REQ",
+    "protocol_id": 2561,
+    "class": "Login.js",
+    "source": "client",
+    "response": "PROTOCOL_BASE_LOGIN_ACK"
+  },
+  {
+    "name": "PROTOCOL_BASE_LOGIN_ACK",
+    "protocol_id": 2564,
+    "class": "Login.js",
+    "source": "server"
+  },
+  
+  
+  {
+    "name": "PROTOCOL_BASE_GET_MYINFO_REQ",
+    "protocol_id": 2565,
+    "source": "client",
+    "clean": true,
+    "response": "PROTOCOL_BASE_GET_MYINFO_ACK"
+  },
+  {
+    "name": "PROTOCOL_BASE_GET_MYINFO_ACK",
+    "protocol_id": 2566,
+    "class": "MyInfo.js",
+    "source": "server"
+  },
+  
+  
+  {
+    "name": "PROTOCOL_BASE_GET_MYFRIENDS_REQ",
+    "protocol_id": 2567,
+    "source": "client",
+    "clean": true,
+    "response": "PROTOCOL_BASE_GET_MYFRIENDS_ACK"
+  },
+  {
+    "name": "PROTOCOL_BASE_GET_MYFRIENDS_ACK",
+    "protocol_id": 274,
+    "clean": true
+  },
+  {
+    "name": "PROTOCOL_BASE_CONFIG_PLAYER_ACK",
+    "protocol_id": 2568,
+    "clean": true
+  },
+  
+  
+  {
+    "name": "PROTOCOL_BASE_GET_CHANNELLIST_REQ",
+    "protocol_id": 2571,
+    "source": "client",
+    "clean": true,
+    "response": "PROTOCOL_BASE_GET_CHANNELLIST_ACK"
+  },
+  {
+    "name": "PROTOCOL_BASE_GET_CHANNELLIST_ACK",
+    "protocol_id": 2572,
+    "clean": true
+  },
+
+
+  {
+    "name": "PROTOCOL_BASE_ENTER_CHANNELSELECT_REQ",
+    "protocol_id": 2573,
+    "class": "EnterChannel.js",
+    "source": "client",
+    "response": "PROTOCOL_SERVER_MESSAGE_ANNOUNCE_ACK"
+  },  
+  {
+    "name": "PROTOCOL_SERVER_MESSAGE_ANNOUNCE_ACK",
+    "protocol_id": 2574,
+    "clean": true
+  },  
+  
+  
+  {
+    "name": "PROTOCOL_BASE_AUTH_KEEP_ALIVE_REQ",
+    "protocol_id": 2575,
+    "clean": true
+  },
+  
+  
+  {
+    "name": "PROTOCOL_BASE_USER_LEAVE_REQ",
+    "protocol_id": 2577,
+    "source": "client",
+    "clean": true,
+    "response": "PROTOCOL_BASE_USER_LEAVE_ACK"
+  },
+  {
+    "name": "PROTOCOL_BASE_USER_LEAVE_ACK",
+    "protocol_id": 2578,
+    "clean": true
+  },
+  
+  
+  {
+    "name": "PROTOCOL_BASE_AUTHENTICATE_GAME_REQ",
+    "protocol_id": 2579,
+    "class": "Authenticate.js",
+    "source": "client",
+    "response": "PROTOCOL_BASE_AUTHENTICATE_GAME_ACK"
+  },
+  {
+    "name": "PROTOCOL_BASE_AUTHENTICATE_GAME_ACK",
+    "protocol_id": 2580,
+    "clean": true
+  },
+  
+  
+  {
+    "name": "PROTOCOL_MESSAGE_CHAT_REQ",
+    "protocol_id": 2627,
+    "class": "MessageChatNormal.js",
+    "source": "client",
+    "response": "PROTOCOL_MESSAGE_CHAT_NORMAL_ACK"
+  },
+  
+  
+  {
+    "name": "PROTOCOL_EXIT_GAME_REQ",
+    "protocol_id": 2654,
+    "source": "client",
+    "clean": true
+  },  
+  {
+    "name": "PROTOCOL_EXIT_GAME_ACK",
+    "protocol_id": 2655,
+    "clean": true
+  },
+  
+  
+  {
+    "name": "PROTOCOL_BATTLE_READYBATTLE_REQ",
+    "protocol_id": 3331,
+    "class": "RoomReady.js",
+    "source": "client"
+  },
+  {
+    "name": "PROTOCOL_BATTLE_READYBATTLE_ACK",
+    "protocol_id": 3332,
+    "clean": true
+  },
+  
+  {
+    "name": "PROTOCOL_BATTLE_PREPARATION_REQ",
+    "protocol_id": 3348,
+    "response": "PROTOCOL_BATTLE_PREPARATION_ACK",
+    "class": "battlePreparation.js",
+    "source": "client"
+  },
+  {
+    "name": "PROTOCOL_BATTLE_PREPARATION_ACK",
+    "protocol_id": 3349,
+    "source": "server",
+    "class": "battlePreparation.js"
+  },
+  
+    
+  {
+    "name": "PROTOCOL_LOBBY_ENTER_REQ",
+    "protocol_id": 3079,
+    "source": "client",
+    "clean": true,
+    "response": "PROTOCOL_LOBBY_ENTER_ACK"
+  },
+  {
+    "name": "PROTOCOL_LOBBY_ENTER_ACK",
+    "protocol_id": 3080,
+    "clean": true
+  },
+  
+  
+  {
+    "name": "PROTOCOL_LOBBY_JOIN_ROOM_REQ",
+    "protocol_id": 3081,
+    "class": "EnterRoom.js",
+    "source": "client",
+    "response": "PROTOCOL_LOBBY_JOIN_ROOM_ACK"
+  },
+  {
+    "name": "PROTOCOL_LOBBY_JOIN_ROOM_ACK",
+    "protocol_id": 3082,
+    "clean": true
+  },    
+  {
+    "name": "PROTOCOL_LOBBY_LEAVE_ROOM_REQ",
+    "protocol_id": 3083,
+    "clean": true,
+    "source": "client",
+    "response": "PROTOCOL_LOBBY_LEAVE_ROOM_ACK"
+  },
+  {
+    "name": "PROTOCOL_LOBBY_LEAVE_ROOM_ACK",
+    "protocol_id": 3084,
+    "clean": true
+  },
+  
+  
+  {
+    "name": "PROTOCOL_MESSAGE_CHAT_NORMAL_ACK",
+    "source": "server",
+    "protocol_id": 3093,
+    "class": "MessageChatNormal.js"
+  },
+  
+  
+  {
+    "name": "PROTOCOL_LOBBY_CREATE_NICK_NAME_REQ",
+    "protocol_id": 3101,
+    "class": "CreateNickname.js",
+    "source": "client",
+    "response": "PROTOCOL_LOBBY_CREATE_NICK_NAME_ACK"
+  },
+  {
+    "name": "PROTOCOL_LOBBY_CREATE_NICK_NAME_ACK",
+    "protocol_id": 3102,
+    "clean": true
+  },
+  {
+    "name": "PROTOCOL_BATTLE_STARTBATTLE_REQ",
+    "protocol_id": 3333,
+    "clean": true
+  },
+
+
+  {
+    "name": "PROTOCOL_ROOM_SLOT_INFO_ACK",
+    "protocol_id": 3861,
+    "clean": true
+  }, 
+  
+  
+  {
+    "name": "PROTOCOL_REQUEST_HOST_REQ",
+    "protocol_id": 3866,
+    "source": "client",
+    "clean": true,
+    "response": "PROTOCOL_REQUEST_HOST_ACK"
+  },
+  {
+    "name": "PROTOCOL_REQUEST_HOST_ACK",
+    "protocol_id": 3867,
+    "clean": true
+  },
+
+  {
+    "name": "PROTOCOL_ROOM_CHANGE_SLOT_REQ",
+    "protocol_id": 3845,
+    "class": "changeSlot.js",
+    "source": "client"
+  },
+  {
+    "name": "PROTOCOL_ROOM_CHANGE_SLOT_ACK",
+    "protocol_id": 3846,
+    "clean": true
+  },
+  {
+    "name": "PROTOCOL_BASE_BATTLE_STARTING_REQ",
+    "protocol_id": 3904,
+    "source": "client",
+    "class": "battleStarting.js"
+  },
+  
+  {
+    "name": "PROTOCOL_ROOM_PLAYER_ENTER_ACK",
+    "protocol_id": 3909,
+    "clean": true
+  },
+  {
+    "name": "PROTOCOL_BATTLE_ROOM_INFO_ACK",
+    "protocol_id": 3426,
+    "source": "server",
+    "class": "roomInfo.js"
+  },
+  {
+    "name": "PROTOCOL_LOBBY_GET_ROOMLIST_ACK",
+    "protocol_id": 3074,
+    "source": "server",
+    "class": "roomList.js"
+  },
+  {
+    "name": "PROTOCOL_LOBBY_GET_ROOMLIST_REQ",
+    "protocol_id": 3073,
+    "clean": true,
+    "response": "PROTOCOL_LOBBY_GET_ROOMLIST_ACK"
+  },
+  {
+    "name": "PROTOCOL_BATTLE_ROUND_START",
+    "protocol_id": 3371,
+    "clean": true
+  },
+  {
+    "name": "PROTOCOL_BATTLE_STARTBATTLE_ACK",
+    "protocol_id": 3334,
+    "clean": true
+  },
+  {
+    "name": "PROTOCOL_LOBBY_CREATE_ROOM_REQ",
+    "protocol_id": 3089,
+    "source": "client",
+    "class": "createRoom.js",
+    "response": "PROTOCOL_LOBBY_CREATE_ROOM_ACK"
+  },
+  {
+    "name": "PROTOCOL_LOBBY_CREATE_ROOM_ACK",
+    "protocol_id": 3090,
+    "source": "server",
+    "class": "createRoom.js"
+  },
+  {
+    "name": "PROTOCOL_INTRUDE",
+    "protocol_id": 65,
+    "source": "client",
+    "class": "battle/intrude.js"
+  },
+  {
+    "name": "PROTOCOL_BATTLE_ROOMINFO_ACK",
+    "protocol_id": 3848,
+    "clean": true
+  },
+  {
+    "name": "PROTOCOL_BATTLE_RESPAWN_ACK",
+    "protocol_id": 3338,
+    "clean": true
+  },
+
+  {
+    "name": "PROTOCOL_BATTLE_BOMB_TAB_REQ",
+    "protocol_id": 3356,
+    "source": "client",
+    "class": "plantBomb.js",
+    "response": "PROTOCOL_BATTLE_BOMB_TAB_ACK"
+  },
+  {
+    "name": "PROTOCOL_BATTLE_BOMB_TAB_ACK",
+    "protocol_id": 3357,
+    "source": "server",
+    "class": "bombPlanted.js"
+  },
+  {
+    "name": "PROTOCOL_BATTLE_BOMB_UNTAB_REQ",
+    "protocol_id": 3358,
+    "source": "client",
+    "class": "defuseBomb.js",
+    "response": "PROTOCOL_BATTLE_UNTAB_ACK"
+  },
+
+  {
+    "name": "PROTOCOL_BATTLE_BOMB_UNTAB_ACK",
+    "protocol_id": 3359,
+    "source": "server",
+    "class": "bombDefused.js"
+  },
+  {
+    "name": "PROTOCOL_BATTLE_RESPAWN_REQ",
+    "protocol_id": 3337,
+    "source": "client",
+    "class": "respawn.js",
+    "response": "PROTOCOL_BATTLE_RESPAWN_ACK"
+  },
+  {
+    "name": "PROTOCOL_BATTLE_RESPAWN_ACK",
+    "protocol_id": 3338,
+    "source": "server",
+    "class": "respawn.js"
+  },
+  {
+    "name": "PROTOCOL_BATTLE_FRAG_INFO_ACK",
+    "protocol_id": 3355,
+    "source": "server",
+    "class": "fragInfo.js"
+  },
+
+  {
+    "name": "PROTOCOL_BASE_HEARTBEAT_REQ",
+    "protocol_id": 2575,
+    "clean": true
+  }
+]
