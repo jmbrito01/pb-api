@@ -6,7 +6,7 @@
   "scripts": {
     "start": "node --use-strict ."
   },
-  "author": "João Marcelo Brito e Bruninho Medeiros",
+  "author": "João Marcelo Brito e Bruno Medeiros",
   "license": "GNU",
   "dependencies": {
     "gync": "^1.0.3",
