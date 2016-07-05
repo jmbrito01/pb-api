@@ -16,6 +16,10 @@ some informations described in commercial servers
 **we discourage you to use it.**
 
 
+### The protocol
+To know more about the PointBlank connection protocol you should check out
+our [documentation](https://github.com/jmbrito01/pb-api/blob/master/documentation).
+
 ### Installation
 To install you can use the node package manager (npm) with the
 command:
@@ -98,6 +102,12 @@ not made, the bot wont take any hits.
 To see a more well written documentation run `gulp docs` in the
 project so that jsdoc can document the classes for you, after it
 finishes just access the website generated at the path named `docs`.
+
+### Contribute
+We encourage you to contribute to this repository, today the two things we believe
+is most needed are better documentations of the protocol and to finish the battle protocol
+that we only started, we want to understand further how it works so that we can simulate an
+entire battle clientlessly.
 
 ### License
 This program is free software: you can redistribute it and/or modify

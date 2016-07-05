@@ -1,12 +1,12 @@
 {
   "name": "pb-api",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "An API for PointBlank.",
   "main": "index.js",
   "scripts": {
     "start": "node --use-strict ."
   },
-  "author": "João Marcelo Brito e Bruninho Medeiros",
+  "author": "João Marcelo Brito e Bruno Medeiros",
   "license": "GNU",
   "dependencies": {
     "gync": "^1.0.3",
