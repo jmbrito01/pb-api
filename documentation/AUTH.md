@@ -12,7 +12,7 @@ code is our MAC encrypted that we got from the parameters of the process.
 
 ### Packet list
 | Packet Name | Packet Id |
-|--|--|
+|----|----|
 | PROTOCOL_BASE_SERVERLIST_ACK | 2049|
 | PROTOCOL_BASE_LOGIN_REQ | 2561|
 | PROTOCOL_BASE_LOGIN_ACK | 2564|
