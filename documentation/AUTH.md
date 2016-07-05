@@ -11,7 +11,7 @@ we were studying the battle server and did not implemented it yet, so that unk2 
 code is our MAC encrypted that we got from the parameters of the process.
 
 ### Packet list
-| Packet Name | Packet Id
+| Packet Name | Packet Id |
 |--| --|
 | PROTOCOL_BASE_SERVERLIST_ACK | 2049|
 | PROTOCOL_BASE_LOGIN_REQ | 2561|
