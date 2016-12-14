@@ -6,6 +6,15 @@ class HelloPacket extends Packet {
         super(opts);
         this.conn = opts.conn;
         // Read
+        this.nextWord(); //unk
+        this.countServer = this.nextDword();
+        this.advance(132); //Unk
+        this.hash        = this.nextWord();
+        this.advance(8); //Unk
+        this.majorVersion= this.nextByte();
+        this.minorVersion= this.nextWord();
+        this.advance(2);
+        this.sessionId   = this.nextWord();
         this.sessionId   = this.nextDword();
         this.ip          = this.nextIP();
         this.cryptoKey   = this.nextWord();

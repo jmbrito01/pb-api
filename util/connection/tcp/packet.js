@@ -34,6 +34,9 @@ class TCPPacket {
         return this.buff.slice(start, this.getPacketSize());
     }
 
+    getPacketContent() {
+        return this.buff.slice(this.sizeheader, this.getContentSize());
+    }
     clean() {
         this.buff = this.getData();
     }

@@ -21,11 +21,11 @@
 
 
   {
-    "name": "PROTOCOL_BASE_SERVERLIST_ACK",
+    "name": "PROTOCOL_BASE_CONNECT_ACK",
     "source": "server",
-    "protocol_id": 2049,
-    "class": "Hello.js"
-  },  
+    "protocol_id": 514,
+    "class": "hello.js"
+  },
   {
     "name": "PROTOCOL_BASE_TIMEOUT",
     "protocol_id": 2054,
